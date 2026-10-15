@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy – Paper Soccer</title>
+  <link rel="stylesheet" href="../legal.css">
+</head>
+<body>
+<main>
+  <nav class="top"><a href="../index.html">‹ Documents</a><a href="../pl/privacy.html" lang="pl">Polski</a></nav>
+  <article class="card">
+    <h1>Privacy Policy</h1>
+<p class="meta"><em>“Piłkarzyki na kartce” (Paper Soccer) app · version 1.0 · effective from <span class="todo">[EFFECTIVE DATE]</span></em></p>
+<blockquote><p><strong>In short.</strong> Playing against the computer happens on your phone, even offline. Only your profile, nickname, points, statistics, match history and interrupted match go to the cloud (Google Firebase) – so that leaderboards and sync work. Your nickname and points are public on the leaderboard. Personalized ads, usage statistics and crash reports are turned on only with your consent. You can delete your account and all data with one button in Settings.</p>
+</blockquote>
+<nav class="toc note"><b>Contents</b><ul><li><a href="#1-controller-and-contact">1. Controller and contact</a></li><li><a href="#2-what-data-we-process-why-and-on-what-basis">2. What data we process, why and on what basis</a></li><li><a href="#3-data-stored-only-on-your-phone">3. Data stored only on your phone</a></li><li><a href="#4-ads-and-your-consents">4. Ads and your consents</a></li><li><a href="#5-recipients">5. Recipients</a></li><li><a href="#6-transfers-outside-the-eea">6. Transfers outside the EEA</a></li><li><a href="#7-how-long-we-keep-data">7. How long we keep data</a></li><li><a href="#account-deletion">8. Account and data deletion</a></li><li><a href="#9-your-rights">9. Your rights</a></li><li><a href="#10-children-and-teenagers">10. Children and teenagers</a></li><li><a href="#11-security-and-profiling">11. Security and profiling</a></li><li><a href="#12-changes-to-this-policy">12. Changes to this policy</a></li></ul></nav><h2 id="1-controller-and-contact">1. Controller and contact</h2>
+<p>The controller of your personal data is <span class="todo">[FULL NAME / COMPANY NAME]</span>, <span class="todo">[ADDRESS]</span> (“we”, “us”). For any data protection matters, write to <span class="todo">[E-MAIL ADDRESS]</span>. We have not appointed a data protection officer.</p>
+<p>This policy covers the “Piłkarzyki na kartce” (Paper Soccer) mobile app for Android and iOS. Capitalized terms have the meaning given in the <a href="terms.html">Terms of Use</a>.</p>
+<h2 id="2-what-data-we-process-why-and-on-what-basis">2. What data we process, why and on what basis</h2>
+<p>Legal bases are under the GDPR: Article 6(1)(a) (consent), (b) (performance of the agreement – the Terms), (c) (legal obligation) and (f) (our legitimate interest).</p>
+<h3 id="2-1-account-and-sign-in-firebase-authentication">2.1. Account and sign-in (Firebase Authentication)</h3>
+<ul><li><strong>Data:</strong> the Account identifier (UID); nothing else for a guest account. When signing in with Apple or Google, also your identifier with that service and the e-mail address Apple or Google shares with us (Apple lets you hide your real address), and which sign-in method you use. We never receive passwords.</li>
+<li><strong>Purpose:</strong> creating and maintaining your Account, attaching your results to it, linking a guest account to Apple or Google, restoring the Account on a new device.</li>
+<li><strong>Basis:</strong> performance of the agreement (b).</li>
+</ul>
+<h3 id="2-2-profile-statistics-history-and-sync-cloud-firestore">2.2. Profile, statistics, history and sync (Cloud Firestore)</h3>
+<ul><li><strong>Profile data:</strong> nickname, pen color, sign-in methods, creation and update dates, points (total and current week), statistics (played, won, lost, how you won, own goals, resignations, streaks, number of segments and bounces, total play time, results per level), achievements with the dates you earned them.</li>
+<li><strong>Match history:</strong> for each match – dates and duration, App and engine version, settings (level, field, who starts, clock, move preview, undo), the computer’s random seed, the move record, the result and its reason, points, number of hints and undos.</li>
+<li><strong>Interrupted match:</strong> the state of a match in progress (settings, moves, ball position, time, hints and undos left) – saved when you pause, leave a match or the App goes to the background.</li>
+<li><strong>Purpose:</strong> profile, statistics, achievements, match replays, resuming a match and syncing between devices.</li>
+<li><strong>Basis:</strong> performance of the agreement (b).</li>
+</ul>
+<h3 id="2-3-nickname-and-public-leaderboard">2.3. Nickname and public leaderboard</h3>
+<ul><li><strong>Data:</strong> nickname, pen color, points and rank on the world and weekly leaderboards. <strong>Other Users can see this data.</strong> The nickname reservation (nickname → UID) is public so that nobody else can take the same nickname.</li>
+<li><strong>Moderation:</strong> nicknames are checked by an automatic word filter; if reported, we may also review them manually.</li>
+<li><strong>Purpose and basis:</strong> running the leaderboard – performance of the agreement (b); moderating nicknames and protecting other Users – our legitimate interest (f).</li>
+</ul>
+<h3 id="2-4-game-center-and-google-play-games">2.4. Game Center and Google Play Games</h3>
+<ul><li><strong>Data:</strong> your score and earned achievements, sent to Game Center (iOS) or Google Play Games (Android) if you are signed in to them.</li>
+<li><strong>Purpose and basis:</strong> friends leaderboard and platform achievements – performance of the agreement (b).</li>
+<li>Apple and Google process this data as independent controllers under their own privacy policies. You control your profile’s visibility to friends in Game Center or Play Games.</li>
+</ul>
+<h3 id="2-5-fraud-prevention-and-security-firebase-app-check-security-rules">2.5. Fraud prevention and security (Firebase App Check, security rules)</h3>
+<ul><li><strong>Data:</strong> tokens confirming that a request comes from the genuine App on a real device (Google Play Integrity on Android, App Attest / DeviceCheck on iOS), IP address and basic technical information about the request.</li>
+<li><strong>Purpose:</strong> protecting the leaderboard from forged results (including a cap on points growth), protecting data and infrastructure from abuse.</li>
+<li><strong>Basis:</strong> our legitimate interest (f) – a fair leaderboard and a secure service.</li>
+</ul>
+<h3 id="2-6-remote-configuration-firebase-remote-config">2.6. Remote configuration (Firebase Remote Config)</h3>
+<ul><li><strong>Data:</strong> Firebase installation ID, App and OS version, device language and country.</li>
+<li><strong>Purpose:</strong> delivering settings without an App update, e.g. the frequency of full-screen ads and the balance of computer levels.</li>
+<li><strong>Basis:</strong> performance of the agreement (b) and our legitimate interest (f).</li>
+</ul>
+<h3 id="2-7-usage-statistics-google-analytics-for-firebase-only-with-consent">2.7. Usage statistics (Google Analytics for Firebase) – only with consent</h3>
+<ul><li><strong>Data:</strong> App instance ID, in-app events (e.g. screens opened, match start and result, computer level, use of hints), device model, OS and App version, language, approximate country or region derived from the IP address. We do not link this data to your nickname or e-mail address.</li>
+<li><strong>Purpose:</strong> understanding how the game is used and tuning the computer levels.</li>
+<li><strong>Basis:</strong> consent (a), given with the “Usage statistics” switch.</li>
+</ul>
+<h3 id="2-8-crash-reports-firebase-crashlytics-only-with-consent">2.8. Crash reports (Firebase Crashlytics) – only with consent</h3>
+<ul><li><strong>Data:</strong> error trace (stack trace), time of the crash, device model, OS and App version, free memory, Crashlytics installation ID.</li>
+<li><strong>Purpose:</strong> finding and fixing bugs.</li>
+<li><strong>Basis:</strong> consent (a), given with the “Crash reports” switch.</li>
+</ul>
+<h3 id="2-9-ads-google-admob">2.9. Ads (Google AdMob)</h3>
+<p>Described in <a href="#4-ads-and-your-consents">section 4</a>.</p>
+<h3 id="2-10-contact-bug-reports-and-complaints">2.10. Contact, bug reports and complaints</h3>
+<ul><li><strong>Data:</strong> e-mail address, message content and anything you choose to include (e.g. nickname, device model, App version).</li>
+<li><strong>Purpose and basis:</strong> replying to and handling your message – our legitimate interest (f); handling complaints and data protection requests – legal obligation (c).</li>
+</ul>
+<h2 id="3-data-stored-only-on-your-phone">3. Data stored only on your phone</h2>
+<p>The App stores on your device: settings (game, sound and vibration, theme, color-blind mode, language), your consent choices, age confirmation, an autosave of the current match (after every move), a local history for replays, a match counter used to show full-screen ads less often and which cards with our other games you have hidden. This data stays on your phone, except for the saves described in section 2.2. You can delete it by uninstalling the App or clearing its data in system settings.</p>
+<p>The App does not ask for access to GPS location, contacts, photos, camera or microphone. Vibration and sounds work locally.</p>
+<h2 id="4-ads-and-your-consents">4. Ads and your consents</h2>
+<p>The App is free thanks to Google AdMob ads: banners in the menu, leaderboard and profile (never on the board), full-screen ads after a match (at most every second match, not in your first matches and not after the tutorial) and optional rewarded ads (a hint or 3 undos).</p>
+<p>In the menu and in Settings we also recommend our other games. It is a plain link to the app store – no data is shared with anyone, and you can hide the card in the menu.</p>
+<ul><li><strong>Data processed by Google and its ad partners:</strong> the device advertising ID (Android Advertising ID / IDFA on iOS – only if you allow it), IP address, approximate location derived from it, information about the device, OS and App, information about ad impressions and interactions.</li>
+<li><strong>Personalized ads</strong> are shown only if you turn on “Ads tailored to me”, consent in Google’s consent form (UMP) and, on iPhone, allow tracking in the system prompt (App Tracking Transparency). Basis: consent (Article 6(1)(a) GDPR and Article 399 of the Polish Electronic Communications Law).</li>
+<li><strong>Non-personalized ads</strong> are shown if you do not consent to personalized ads or do not confirm that you are at least 16. They are not based on your history, but Google may use identifiers and the IP address for frequency capping, fraud detection and ad measurement – within the choices you made in the consent form. Basis: our legitimate interest in funding a free App (f), and consent where required for storing or reading information on the device.</li>
+<li><strong>The list of ad partners</strong> is available in Google’s consent form, opened from the “Consent and privacy” screen (the “Ad partners” link). How Google uses data: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</li>
+</ul>
+<h3 id="how-to-change-or-withdraw-consent">How to change or withdraw consent</h3>
+<ul><li>In the App: <strong>Settings → Privacy and ads → Ads and analytics consent</strong>. Withdrawing consent does not affect the lawfulness of processing before withdrawal.</li>
+<li>iPhone: system Settings → Privacy &amp; Security → Tracking.</li>
+<li>Android: system Settings → Google → Ads (reset or delete the advertising ID).</li>
+</ul>
+<h2 id="5-recipients">5. Recipients</h2>
+<p>We do not sell your data. We share it only with:</p>
+<ul><li><strong>Google Ireland Limited</strong> (Ireland) and <strong>Google LLC</strong> (USA) – Firebase (Authentication, Cloud Firestore, App Check, Remote Config, Analytics, Crashlytics), Sign in with Google, Google Play Games, AdMob and the UMP consent form. For Firebase, Google acts as our processor; for ads, sign-in and Play Games, also as an independent controller. <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.</li>
+<li><strong>Apple Distribution International Ltd.</strong> (Ireland) and <strong>Apple Inc.</strong> (USA) – Sign in with Apple, Game Center, App Attest – as an independent controller. <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple Privacy Policy</a>.</li>
+<li><strong>Google’s ad partners</strong> – within your consents (section 4).</li>
+<li><strong>Other Users</strong> – nickname, color and points on the leaderboard.</li>
+<li><strong>Public authorities</strong> – where required by law.</li>
+</ul>
+<h2 id="6-transfers-outside-the-eea">6. Transfers outside the EEA</h2>
+<p>Google LLC and Apple Inc. may process data in the USA and other countries outside the European Economic Area. Transfers are based on the European Commission’s adequacy decision of 10 July 2023 (EU-US Data Privacy Framework – both companies are certified) and, additionally, on standard contractual clauses approved by the Commission. You can get a copy of the safeguards by writing to us.</p>
+<h2 id="7-how-long-we-keep-data">7. How long we keep data</h2>
+<div class="table-wrap"><table><thead><tr><th>Data</th><th>Period</th></tr>
+</thead><tbody><tr><td>Account, profile, nickname, points, statistics, achievements</td><td>Until the Account is deleted. Guest accounts unused for <span class="todo">[24 MONTHS]</span> are deleted automatically.</td></tr>
+<tr><td>Match history in the cloud</td><td>12 months after the match ends (automatic deletion), or earlier when the Account is deleted.</td></tr>
+<tr><td>Interrupted match in the cloud</td><td>Until the match is finished or abandoned, or the Account is deleted.</td></tr>
+<tr><td>Usage statistics (Analytics)</td><td>User-level data – 2 months; after that only aggregated reports without identifiers.</td></tr>
+<tr><td>Crash reports (Crashlytics)</td><td>90 days.</td></tr>
+<tr><td>Advertising data</td><td>According to the rules of Google and its ad partners (listed in the consent form).</td></tr>
+<tr><td>Correspondence and complaints</td><td>Until the matter is closed, then until any claims become time-barred.</td></tr>
+<tr><td>Data on your phone</td><td>Until you uninstall the App or clear its data.</td></tr>
+</tbody></table></div>
+<h2 id="account-deletion">8. Account and data deletion</h2>
+<p><strong>In the App:</strong> Settings → <strong>Delete account and all data</strong> → confirm. The App immediately deletes your match history, interrupted match, profile with statistics and points, nickname reservation and, finally, the Account itself in Firebase Authentication. Your nickname disappears from the leaderboard.</p>
+<p><strong>Without the App:</strong> e-mail <span class="todo">[E-MAIL ADDRESS]</span> with the subject “Account deletion”, stating your nickname and sign-in method (guest, Apple, Google). We may ask for information confirming the Account is yours. We will delete the data within 30 days and confirm by e-mail.</p>
+<p>Deleting the Account does not delete data in Game Center and Google Play Games (delete it in those services’ settings) or data on your phone (uninstall the App). Google’s service backups are overwritten within their standard cycles. Data we must keep by law (e.g. complaint correspondence) is kept only for the required period.</p>
+<h2 id="9-your-rights">9. Your rights</h2>
+<p>You have the right to:</p>
+<ul><li>access your data and get a copy,</li>
+<li>rectify your data (you can change your nickname in Settings),</li>
+<li>erasure (section 8),</li>
+<li>restriction of processing,</li>
+<li>data portability for data processed on the basis of the agreement or consent,</li>
+<li>object to processing based on our legitimate interest,</li>
+<li>withdraw consent at any time (section 4),</li>
+<li>lodge a complaint with the President of the Polish Personal Data Protection Office (ul. Stawki 2, 00-193 Warsaw, <a href="https://uodo.gov.pl/en" rel="noopener">uodo.gov.pl</a>) or the supervisory authority in your country of residence.</li>
+</ul>
+<p>To exercise your rights, write to the address in section 1. We will reply within one month. Providing data is voluntary, but without a UID and profile data we cannot maintain an Account or leaderboard – you can still play against the computer offline.</p>
+<h2 id="10-children-and-teenagers">10. Children and teenagers</h2>
+<p>On the “Consent and privacy” screen we ask whether you are at least 16. If you do not confirm this, we show only non-personalized ads and do not turn on usage statistics or crash reports, because people under 16 cannot consent to such processing themselves (Article 8 GDPR). The App is not directed at children under 13. A parent or guardian who believes a child has given us data can write to us and we will delete it.</p>
+<h2 id="11-security-and-profiling">11. Security and profiling</h2>
+<ul><li>Connections to our servers are encrypted (TLS). Database security rules let each User read and change only their own data (except the public leaderboard and nickname reservations), and App Check blocks requests not coming from the genuine App.</li>
+<li>We do not make decisions about you based solely on automated processing that produce legal effects or similarly significantly affect you. Automatic point caps and the nickname filter keep the leaderboard fair – if you disagree with their outcome, write to us and a human will review it.</li>
+<li>Personalized ads involve profiling by Google and its ad partners – only with your consent.</li>
+<li>The computer you play against is an algorithm running on your phone; it does not analyze your personal data.</li>
+</ul>
+<h2 id="12-changes-to-this-policy">12. Changes to this policy</h2>
+<p>We update this policy when the App’s features, the services we use or the law change. We will tell you about significant changes in the App, and if a change requires new consent, we will ask for it again.</p>
+
+  </article>
+  <footer>Paper Soccer · <a href="terms.html">Terms of Use</a> · <a href="licenses.html">Licenses</a></footer>
+</main>
+</body>
+</html>
